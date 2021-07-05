@@ -7,7 +7,8 @@ If there is data update in the information part of the crawling website, the upd
 
 Setup
 -------
-###Dependencies
+
+### Dependencies
 * Numpy
 * smtplib
 * BeautifulSoup
@@ -34,9 +35,7 @@ Add the following command at the end of the file
 The script will be executed at a rate of two hours
 
 
-###Crontab writing explanation
-
-
+### Crontab writing explanation
 ```
 * * * * * user command represents
 *Minute* *Hour* *Day* *Month* *Week* *user* *command*
